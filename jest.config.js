@@ -9,6 +9,7 @@ module.exports = {
   },
   testPathIgnorePatterns: [],
   projects: [
+    '<rootDir>',
     '<rootDir>/packages/*'
   ],
   transform: {

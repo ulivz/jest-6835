@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "NODE_ENV=test jest --config jest.config.js"
+    "test-1": "NODE_ENV=test jest --config jest.config.js test/a.spec.js",
+    "test-2": "NODE_ENV=test jest --config jest.config.js packages/a/a.spec.js"
   },
   "devDependencies": {
     "lerna": "^2.11.0",
