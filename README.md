@@ -1,6 +1,8 @@
-# jest-issue
+# jest-6835
 
-## Get this repo
+> Reproduction link of https://github.com/facebook/jest/issues/6835
+
+## Install
 
 ```bash
 git clone https://github.com/ulivz/jest-issue.git
