@@ -1,8 +1,6 @@
 # jest-issue
 
-Reproduction step:
-
-1. Get this repo
+## Get this repo
 
 ```bash
 git clone https://github.com/ulivz/jest-issue.git
@@ -10,14 +8,14 @@ cd jest-issue
 yarn
 ```
 
-2. Running tests in root dir
+## Running tests in root dir
 
 ```bash
 yarn test-1
 # NODE_ENV=test jest --config jest.config.js test/a.spec.js
 ```
 
-Output:
+- **Output**:
 
 ``` 
 yarn run v1.7.0
@@ -33,14 +31,14 @@ Ran all test suites matching /test\/a.spec.js/i.
 ✨  Done in 1.41s.
 ```
 
-2. Running tests in packages
+## Running tests in packages
 
 ```bash
 yarn test-2
 # NODE_ENV=test jest --config jest.config.js packages/a/a.spec.js
 ```
 
-Output:
+- **Output**:
 
 ```
 yarn run v1.7.0
