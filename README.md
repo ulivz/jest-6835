@@ -1,5 +1,7 @@
 # jest-6835
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/jest-6835.svg)](https://greenkeeper.io/)
+
 > Reproduction link of https://github.com/facebook/jest/issues/6835
 
 ## Install
